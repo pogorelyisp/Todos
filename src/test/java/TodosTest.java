@@ -52,7 +52,7 @@ public class TodosTest {
         Todos todos = new Todos();
 
         todos.add(epic);
-        String query = "Молоко";
+        String query = "Хлеб";
 
         Task[] expected = {epic};
         Task[] actual = todos.search(query);
